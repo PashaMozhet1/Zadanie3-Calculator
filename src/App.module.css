@@ -11,6 +11,14 @@
 	padding: 20px;
 }
 
+.total {
+	border: 1px;
+	border-radius: 8px;
+	border-color: rgb(34, 34, 33);
+	font-size: 3rem;
+	padding: 20px;
+}
+
 .number-buttons {
 	width: 300px;
 	padding: 10px;
