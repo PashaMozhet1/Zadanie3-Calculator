@@ -85,7 +85,7 @@ export function App() {
 				</ul>
 
 				<ul className={styles['number-buttons']}>
-					{numbers.map(({ id, value }, index) => {
+					{numbers.map(({ id, value }) => {
 						return (
 							<button
 								key={id}
