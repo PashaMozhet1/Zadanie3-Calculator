@@ -1,0 +1,58 @@
+.equal {
+	font-weight: 900;
+	color: rgb(44, 42, 42);
+}
+
+.textarea {
+	border: 1px;
+	border-radius: 8px;
+	border-color: rgb(34, 34, 33);
+	font-size: 3rem;
+	padding: 20px;
+}
+
+.number-buttons {
+	width: 300px;
+	padding: 10px;
+	border-radius: 8px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: auto;
+	gap: 10px;
+	box-sizing: border-box;
+}
+
+.button {
+	color: rgb(34, 34, 33);
+	background-color: rgb(218, 224, 243);
+	border: none;
+	font-size: 1.2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding: 16px;
+}
+
+.button-zero {
+	grid-column: 1/-1;
+}
+
+.operation-buttons {
+	width: 300px;
+	padding: 10px;
+	border-radius: 8px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+	gap: 10px;
+	box-sizing: border-box;
+}
+
+.button:hover {
+	background-color: rgb(177, 184, 209);
+}
+
+.button-cancel {
+	background-color: rgb(231, 232, 238);
+}
